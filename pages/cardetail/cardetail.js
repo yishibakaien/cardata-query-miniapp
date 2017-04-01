@@ -20,6 +20,14 @@ Page({
   onUnload:function(){
     // 页面关闭
   },
+  makecall: function() {
+    wx.makePhoneCall({
+      phoneNumber: '15653986199',
+      success: function(res) {
+        // success
+      }
+    });
+  },
   deleteCar: function() {
     wx.showActionSheet({
       itemList: ['确认删除此条车辆信息'],

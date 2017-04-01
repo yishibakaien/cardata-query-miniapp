@@ -39,3 +39,6 @@
 .list{
     margin-top: 32rpx;
 }
+button{
+    margin-top: 32rpx;
+}

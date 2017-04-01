@@ -19,7 +19,7 @@
 
         <block wx:if="{{carData.result.length}}">
             <view class="list" wx:for="{{carData.result}}">
-                    <view>{{item.index + 1}}、</view>
+                    <view>{{item.index}}</view>
                     <view>时间：{{item.Time}}</view>
                     <view>地点：{{item.Location}}</view>
                     <view>原因：{{item.Reason}}</view>
@@ -30,7 +30,7 @@
             </view>
         </block>
     </view>
-    <button wx:if="{{carData.result.length}}" type="">联系办理</button>
+    <button wx:if="{{carData.result.length}}" bindtap="makecall">联系办理</button>
 
     <button wx:if="{{carData}}" type="warn" bindtap="deleteCar">删除此车辆</button>
 </view> 
