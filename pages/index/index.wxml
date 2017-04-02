@@ -6,47 +6,50 @@
 
   <view class="services">
     <view>
-      <image bindtap="phone" data-tel="95338" src="../../images/shunfeng.png"></image>
-      <text>顺丰快递</text>
+      <image bindtap="phone" data-tel="8163570" src="../../images/buycar.png"></image>
+      <text>买车</text>
     </view>
     <view>
-      <image bindtap="phone" data-tel="95543" src="../../images/shentong.png"></image>
-      <text>申通快递</text>
+      <image bindtap="phone" data-tel="861059960114" src="../../images/shihua.png"></image>
+      <text>查油价</text>
     </view>
     <view>
-      <image bindtap="phone" data-tel="95311"  src="../../images/zhongtong.png"></image>
-      <text>中通快递</text>
+      <image bindtap="phone" data-tel="4001234567"  src="../../images/picc.png"></image>
+      <text>买车险</text>
     </view>
+    
   </view>
   <view class="services">
     <view>
-      <image bindtap="phone" data-tel="95599"  src="../../images/nongye.png"></image>
-      <text>农业银行</text>
+      <image bindtap="phone" data-tel="8380666"  src="../../images/zhengzhi.png"></image>
+      <text>学车</text>
     </view>
     <view>
       <image bindtap="phone" data-tel="95588"  src="../../images/gongshang.png"></image>
-      <text>工商银行</text>
+      <text>车贷</text>
     </view>
     <view>
-      <image bindtap="phone" data-tel="95533"  src="../../images/jianshe.png"></image>
-      <text>建设银行</text>
+      <image bindtap="phone" data-tel="4000460650"  src="../../images/nbd.jpg"></image>
+      <text>道路救援</text>
     </view>
+
   </view>
   <view class="services">
     <view>
-      <image bindtap="phone" data-tel="10000"  src="../../images/dianxin.png"></image>
-      <text>中国电信</text>
+      <image bindtap="phone" data-tel="2723999"  src="../../images/milk.jpg"></image>
+      <text>订奶</text>
     </view>
     <view>
-      <image bindtap="phone" data-tel="10086"  src="../../images/yidong.png"></image>
-      <text>中国移动</text>
+      <image bindtap="phone" data-tel="9600777"  src="../../images/feiji.jpg"></image>
+      <text>订机票</text>
     </view>
     <view>
-      <image bindtap="phone" data-tel="10010"  src="../../images/liantong.png"></image>
-      <text>中国联通</text>
+      <image bindtap="phone" data-tel="15653986199"  src="../../images/wechat.png"></image>
+      <text>微信推广</text>
     </view>
+
   </view>
-  <view class="service-title">
+  <view class="service-title2">
     我的车辆:
   </view>
   <block wx:if="{{carData}}">

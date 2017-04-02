@@ -28,9 +28,23 @@ Page({
       }
     });
   },
+  changeCar: function() {
+    wx.navigateTo({
+      url: '../addcar/addcar',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
+  },
   deleteCar: function() {
     wx.showActionSheet({
-      itemList: ['确认删除此条车辆信息'],
+      itemList: ['删除此条车辆信息并更换'],
       itemColor: '#f53535',
       success: function(res){
         if( res.tapIndex == 0 ) {

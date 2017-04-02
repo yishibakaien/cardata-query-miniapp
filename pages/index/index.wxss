@@ -6,6 +6,10 @@ page{
   padding: 32rpx;
 }
 .service-title{
+  padding: 20rpx 0 30rpx 48rpx;
+  font-size: 38rpx;
+}
+.service-title2{
   padding: 32rpx 0 0 48rpx;
   font-size: 38rpx;
 }
@@ -54,7 +58,7 @@ page{
 }
 
 .button-add {
-  margin-top: 80rpx;
+  margin-top: 50rpx;
   text-align: center;
   position: relative;
   border: 1rpx solid #eee; 

@@ -5,6 +5,7 @@
 .addcar-wrap{
     display: flex;
     display: -webkit-flex;
+    margin-top: 50rpx;
 }
 .left{
     flex: 2;
@@ -14,19 +15,20 @@
 .left text{
     display: block;
     line-height: 70rpx;
-    text-align: center;
+    text-align: right;
 }
 .right{
     flex: 5;
     -webkit-flex: 5;
     -webkit-box-flex: 5;
+    margin-left: 30rpx;
 }
 .right input{
     line-height: 70rpx;
     padding: 10rpx;
 }
 button{
-    margin-top: 40rpx;
+    margin-top: 80rpx;
 }
 .title{
     font-size: 40rpx;
