@@ -45,9 +45,10 @@ page{
   line-height: 40rpx;
   font-family: "Microsoft YaHei";
   position: relative;
+  text-align: center;
   border-radius: 10rpx;
   box-shadow: 0 0 20rpx rgba(255, 241, 0, .5);
-  margin: 32rpx 0;
+  margin: 32rpx 52rpx;
 }
 .car-list .icon{
   width: 50rpx;
@@ -58,7 +59,7 @@ page{
 }
 
 .button-add {
-  margin-top: 50rpx;
+  margin: 50rpx 52rpx;
   text-align: center;
   position: relative;
   border: 1rpx solid #eee; 

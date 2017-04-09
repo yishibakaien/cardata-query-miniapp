@@ -1,6 +1,7 @@
 /* pages/addcar/addcar.wxss */
 .container{
     padding: 32rpx;
+    font-size: 36rpx;
 }
 .addcar-wrap{
     display: flex;
@@ -14,13 +15,13 @@
 }
 .left text{
     display: block;
-    line-height: 70rpx;
+    line-height: 72rpx;
     text-align: right;
 }
 .right{
-    flex: 5;
-    -webkit-flex: 5;
-    -webkit-box-flex: 5;
+    flex: 4;
+    -webkit-flex: 4;
+    -webkit-box-flex: 4;
     margin-left: 30rpx;
 }
 .right input{

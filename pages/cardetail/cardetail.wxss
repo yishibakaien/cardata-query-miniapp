@@ -21,7 +21,9 @@
 }
 .right .common{
     display: block;
+    font-weight: 700;
     line-height: 70rpx;
+    margin-bottom: 40rpx;
 }
 
 .car-record{
@@ -29,16 +31,16 @@
 }
 .title{
     text-align: center;
-    font-weight: 700;
-    line-height: 70rpx;
+    font-size: 30rpx;
+    color: #666;
     padding: 32rpx;
 }
 .list{
     margin-top: 32rpx;
 }
 .list view {
-    height: 40rpx;
-    line-height: 40rpx;
+    height: 50rpx;
+    line-height: 50rpx;
 }
 button{
     margin-top: 32rpx;

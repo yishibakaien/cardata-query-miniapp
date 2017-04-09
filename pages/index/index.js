@@ -42,5 +42,17 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '临沂plus',
+      path: '/pages/index/index',
+      success: function(res) {
+        // 分享成功
+      },
+      fail: function(res) {
+        // 分享失败
+      }
+    }
   }
 })
