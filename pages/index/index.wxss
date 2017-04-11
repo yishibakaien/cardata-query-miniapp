@@ -6,11 +6,11 @@ page{
   padding: 32rpx;
 }
 .service-title{
-  padding: 20rpx 0 30rpx 48rpx;
+  padding: 32rpx 0 30rpx 48rpx;
   font-size: 38rpx;
 }
 .service-title2{
-  padding: 32rpx 0 0 48rpx;
+  padding: 32rpx 0 30rpx 48rpx;
   font-size: 38rpx;
 }
 .services{

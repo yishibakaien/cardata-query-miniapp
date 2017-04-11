@@ -31,6 +31,18 @@ Page({
     // 页面关闭
     
   },
+  onShareAppMessage: function () {
+    return {
+      title: '临沂plus',
+      path: '/pages/addcar/addcar',
+      success: function(res) {
+        // 分享成功
+      },
+      fail: function(res) {
+        // 分享失败
+      }
+    }
+  },
   testcarnumber: function(e) {
     var val = e.detail.value
     if ( !app.testCarnumber(val) ) {

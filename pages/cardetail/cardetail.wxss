@@ -39,7 +39,7 @@
     margin-top: 32rpx;
 }
 .list view {
-    height: 50rpx;
+    /*height: 50rpx;*/
     line-height: 50rpx;
 }
 button{

@@ -1,1 +1,4 @@
-{"navigationBarTitleText": "车辆小历史"}
+{
+    "navigationBarTitleText": "车辆小历史",
+    "enablePullDownRefresh": true
+}

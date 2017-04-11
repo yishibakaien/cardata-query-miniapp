@@ -13,23 +13,29 @@
                 <view>但是</view>
                 <view>{{carData.carnumber}}你木有！</view>
             </view>
-            <view wx:else class="common">{{carData.carnumber}}: 你有 {{carData.result.length ? carData.result.length : "0"}} 段小历史 </view>
-            <!--<text class="common">{{carData.carcode}}</text>
-            <text class="common">{{carData.cardrivenumber}}</text>-->
+            <view wx:else class="common">
+                <view>
+                {{carData.carnumber}}
+                </view>
+                <view>你有</view>  
+                <view>
+                    {{carData.result.length ? carData.result.length : "0"}} 段小历史
+                </view>
+            </view>
+            
         </view>
     </view>
     <view class="car-record">
         <!--<view>违章：{{carData.result.length ? carData.result.length : "0"}} 次</view>-->
         <block wx:if="{{carData.result.length}}">
             <view class="list" wx:for="{{carData.result}}">
-                    <view wx:if="{{carData.result.length > 1}}">{{index + 1}}、</view>
-                    <view>时间：{{item.Time}}</view>
-                    <view>地点：{{item.Location}}</view>
-                    <view>原因：{{item.Reason}}</view>
-                    <view>罚款：{{item.count}}元</view>
-                    <view>扣分：{{item.Degree}}分</view>
-                    <view></view>
-                    <view>状态：{{item.status == 0 ? "未处理" : "已处理" }}                 </view>
+                <view wx:if="{{carData.result.length > 1}}">{{index + 1}}、</view>
+                <view>时间：{{item.Time}}</view>
+                <view>地点：{{item.Location}}</view>
+                <view>原因：{{item.Reason}}</view>
+                <view>罚款：{{item.count}}元</view>
+                <view>扣分：{{item.Degree}}分</view>
+                <view>状态：{{item.status == 0 ? "未处理" : "已处理" }}                 </view>
                     <!--<view>滞纳金：{{item.Latefine}}</view>-->
             </view>
         </block>
