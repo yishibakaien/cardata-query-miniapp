@@ -11,7 +11,8 @@
             <view class="title">我们都是有故事的人</view>
             <view wx:if="{{!carData.result.length}}" class="common">
                 <view>但是</view>
-                <view>{{carData.carnumber}}你木有！</view>
+                <view>{{carData.carnumber}}</view>
+                <view>你木有</view>
             </view>
             <view wx:else class="common">
                 <view>

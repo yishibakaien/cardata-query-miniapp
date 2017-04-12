@@ -20,6 +20,18 @@ Page({
       '_carData.cardrivenumber': carData.cardrivenumber
     });
   },
+  onShareAppMessage: function () {
+    return {
+      title: '临沂plus',
+      path: '/pages/addcar/addcar',
+      success: function(res) {
+        // 分享成功
+      },
+      fail: function(res) {
+        // 分享失败
+      }
+    }
+  },
   onPullDownRefresh: function() {
     var _this = this;
     wx.request({
@@ -94,7 +106,7 @@ Page({
         wx.showToast({
           title: '已刷新车辆信息',
           icon: 'success',
-          duration: 600
+          duration: 1000
         });
       },
       error: function (res) {
