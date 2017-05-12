@@ -25,8 +25,8 @@
       <text>学车</text>
     </view>
     <view>
-      <image bindtap="phone" data-tel="95588"  src="../../images/gongshang.png"></image>
-      <text>车贷</text>
+      <image bindtap="mapNav" data-tel="95588"  src="../../images/nav.png"></image>
+      <text>导航</text>
     </view>
     <view>
       <image bindtap="phone" data-tel="4000460650"  src="../../images/nbd.jpg"></image>

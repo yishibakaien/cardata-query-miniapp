@@ -32,6 +32,11 @@ Page({
       }
     })
   },
+  mapNav: function() {
+    wx.navigateTo({
+      url: '../mapNav/mapNav'
+    });
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -33,16 +33,16 @@ App({
       typeof cb == "function" && cb(this.globalData.userInfo)
     }else{
       //调用登录接口
-      wx.login({
-        success: function () {
-          wx.getUserInfo({
-            success: function (res) {console.log(res.userInfo);
-              that.globalData.userInfo = res.userInfo
-              typeof cb == "function" && cb(that.globalData.userInfo)
-            }
-          })
-        }
-      })
+      // wx.login({
+      //   success: function () {
+      //     wx.getUserInfo({
+      //       success: function (res) {console.log(res.userInfo);
+      //         that.globalData.userInfo = res.userInfo
+      //         typeof cb == "function" && cb(that.globalData.userInfo)
+      //       }
+      //     })
+      //   }
+      // })
     }
   },
   setGlobalData:function(data){
@@ -53,6 +53,7 @@ App({
     appKey:"949444c44b29aaa96b7e976dae276025",
     _appkey: '6153a559d2972c39',
     // appKey: " 6153a559d2972c39",
+    mapkey: 'GPWBZ-X55WI-UXEGI-5OEAL-EFBSF-JUF4B',
     cphm : "",
     cjh : "",
     fdjh : "",

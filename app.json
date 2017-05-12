@@ -1,11 +1,10 @@
 {
   "pages":[
+    
     "pages/index/index",
     "pages/cardetail/cardetail",
     "pages/queryResult/queryResult",
-    
-    
-    
+    "pages/mapNav/mapNav",
     
     "pages/carQuery/carQuery",
     "pages/addcar/addcar"

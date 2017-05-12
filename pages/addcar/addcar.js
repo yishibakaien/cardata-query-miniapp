@@ -55,19 +55,21 @@ Page({
     var val = e.detail.value
     if ( !app.testCode(val) ) {
       wx.blackTip.call(this, "请输入正确的车架号");
+      return;
     }
   },
   testcardrivenumber: function(e) {
     var val = e.detail.value
     if ( !app.testCode(val) ) {
       wx.blackTip.call(this, "请输入正确的发动机号");
+      return;
     }
   },
 
 
   setCarnumber: function(e) {
     this.setData({
-      'carData.carnumber': e.detail.value
+      'carData.carnumber': e.detail.value.toUpperCase()
     });
   },
   setCarcode: function(e) {
