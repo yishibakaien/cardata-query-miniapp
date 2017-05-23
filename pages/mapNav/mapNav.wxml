@@ -1,5 +1,12 @@
-<map id="map"  scale="3" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 580px;"></map>
+<map id="map"  scale="12" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location longitude="{{longitude}}" latitude="{{latitude}}" style="width: 100%; height: 580px;"></map>
 
 <view class="search-wrapper">
-    <input placeholder="请输入你要去哪儿" bindinput="search" />
+    <input placeholder="请输入你要去哪儿" bindinput="search" bindblur="inputBlur" bindfocus="inputFocus"/>
+    
+    <view class="address-list-wrapper" hidden="{{hideList}}">
+      <view class="address-list" wx:for="{{pos}}" bindtap="choosePosition" data-lng="{{item.location.lng}}" data-lat="{{item.location.lat}}">
+        <view class="title">{{item.title}}</view>
+        <view class="address">{{item.address}}</view>
+      </view>
+    </view>
 </view>
